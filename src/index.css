@@ -111,7 +111,7 @@
   @media only screen and (max-width: 600px) {
      .decobutton{
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
      width: 343px;
