@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import profilePic from './asset/profile__img.png';
 import icon from './asset/Icon.png';
