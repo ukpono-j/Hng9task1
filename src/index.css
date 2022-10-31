@@ -108,6 +108,15 @@
     color: gray;
 }
 
+#overlay{
+  display: none;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0px;
+  width: 88px;
+  height: 88px;
+}
+
   @media only screen and (max-width: 600px) {
      .decobutton{
       display: flex;

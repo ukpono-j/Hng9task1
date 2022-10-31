@@ -12,7 +12,9 @@ function App() {
     <div id='main'>
       <div><img src={mobilemenu} alt='' id='mobicon' /></div>
       <div ><img src={icon} alt='' id='menu'  /></div>
-      <div id=''><img src={profilePic} alt='' id='profile' /></div>
+      <div id=''>
+      <div id='overlay' />
+      <img src={profilePic} alt='' id='profile' /></div>
       <p id='twitter' class='username'>@brown_itoro</p>
       <p id='slackid'>aitee</p>
       <div>
