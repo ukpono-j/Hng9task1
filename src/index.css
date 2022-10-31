@@ -1,0 +1,146 @@
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  
+  }
+  .decobutton{
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 32px;
+  gap: 8px;
+  margin-bottom: 8px;
+  text-decoration: none;
+  
+  width: 1152px;
+  height: 76px;
+  
+  /* Gray/200 */
+  
+  background: #EAECF0;
+  /* Gray/200 */
+  
+  border: 1px solid #EAECF0;
+  border-radius: 8px;
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  cursor: pointer;
+  outline: none;
+  }
+  a{
+    text-decoration: none;
+  }
+  
+  
+  
+  .username{
+    width: 1152px;
+  height: 30px;
+  
+  /* Text xl/Bold */
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+  
+  text-align: center;
+  
+  /* Gray/900 */
+  
+  color: #101828;
+  
+  }
+  
+  #menu{
+    margin-left: 1000px;
+    
+  }
+  #mobicon{
+    margin-left: 1000px;
+    display: none;
+  }
+
+  #slack{
+    margin-right: 20px;
+    margin-top: 10px;
+  }
+  #github{
+    margin-left: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+
+  #footer{
+    display: flex;
+    justify-content: space-between;
+    gap: 300px;
+    margin-top: 15px;
+}
+
+.line{
+    height: 1px;
+  width: 1152px;
+  background: #eaecf0;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+#slackid{
+    display: none;
+}
+
+#footertext{
+    color: gray;
+}
+
+  @media only screen and (max-width: 600px) {
+     .decobutton{
+      width: 343px;
+      height: 68px;
+      padding: 24px 32px;
+    }
+    #menu{
+      display: none;
+    }
+    #mobicon{
+        display: block;
+        margin-left: 280px;
+    }
+
+    #footer{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        margin-right:40px;
+    }
+
+    .line{
+        height: 1px;
+      width: 343px;
+      background: #eaecf0;
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      
+    }
+
+
+   
+  } 
