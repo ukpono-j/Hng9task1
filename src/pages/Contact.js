@@ -2,6 +2,7 @@
 
 
 import '../styles/contact.css'
+import Footer from './footer'
 
 
 function Contact() {
@@ -62,6 +63,7 @@ function Contact() {
             </form>
           </div>
         </div>
+        <Footer />
       </div>
     </>
   );

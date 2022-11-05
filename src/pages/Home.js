@@ -3,10 +3,10 @@ import icon from '../asset/Icon.png';
 import mobilemenu from '../asset/sharebutton.png'
 import slack from '../asset/slack.png'
 import github from  '../asset/github.png'
-import zurilogo from '../asset/zurilogo.png'
-import logo2 from '../asset/I4G.png'
+
 import camera from '../asset/cameraicon.jpg'
 import { Link } from 'react-router-dom';
+import Footer from './footer';
 
 
 
@@ -42,11 +42,7 @@ const Home = () =>{
       <img src={github} href='https://github.com/Itoro-Brown' alt='' id='github'/>
     </div>
     <div className='line'/>
-    <div id='footer'>
-      <img src={zurilogo} alt='' />
-      <p id='footertext'>HNG Internship 9 Frontend Task</p>
-      <img src={logo2} alt='' />
-    </div>
+    < Footer />
     
   </div>
 
