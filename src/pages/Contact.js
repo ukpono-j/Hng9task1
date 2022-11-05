@@ -1,14 +1,20 @@
 
 
 
+import { useState } from 'react'
 import '../styles/contact.css'
 import Footer from './footer'
 
 
 function Contact() {
+  const [errorr, setError] = useState(false)
+  const [message, setMessage] = useState("")
+  function submit() {
+    if (!message) setError(true)
+  }
+  const name = "Itoro Brown"
 
-   const name = "Itoro Brown"
-   
+
   return (
     <>
       <div id="contact-me-container">
@@ -26,33 +32,40 @@ function Contact() {
                   <label>First Name</label>
                   <input
                     id="first_name"
-                    placeholder="Enter your first name"
-                    required
+                    placeholder="Enter your first name" required
+
+
                   />
                 </div>
                 <div id="second-name-container">
                   <label>Last Name</label>
                   <input
                     id="last_name"
-                    placeholder="Enter your last name"
-                    required
+                    placeholder="Enter your last name" required
+
                   />
+                </div>
+                <div>
+
                 </div>
               </div>
 
               <div id="email" className="inputs">
                 <label>Email</label>
-                <input type="email" placeholder="yourname@email.com" required />
+                <input type="email" placeholder="yourname@email.com" />
               </div>
               <div id="message" className="inputs">
                 <label>Message</label>
                 <textarea
                   placeholder="Send me a message and I'll reply you as soon as possible..."
-                  required
-                />
+                  onChange={(e)=>{
+                      setError(false)
+                      setMessage(e.target.value)}}
+               required />
+                {errorr ? <div>error</div> : ""}
               </div>
               <div id="checkbox-area" className="inputs">
-                <input type="checkbox" id="checkbox" required />
+                <input type="checkbox" id="checkbox" required/>
                 <p>
                   You agree to providing your data to {name} who may
                   contact you.
