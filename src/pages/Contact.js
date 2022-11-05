@@ -60,9 +60,10 @@ function Contact() {
                   placeholder="Send me a message and I'll reply you as soon as possible..."
                   onChange={(e)=>{
                       setError(false)
-                      setMessage(e.target.value)}}
+                      setMessage(e.target.value)
+                      console.log(message)}}
                required />
-                {errorr ? <div>error</div> : ""}
+                {errorr ? <div>Please input your messages first</div> : ""}
               </div>
               <div id="checkbox-area" className="inputs">
                 <input type="checkbox" id="checkbox" required/>
