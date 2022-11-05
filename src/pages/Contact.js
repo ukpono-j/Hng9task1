@@ -8,6 +8,7 @@ import Footer from './footer'
 function Contact() {
 
    const name = "Itoro Brown"
+   
   return (
     <>
       <div id="contact-me-container">

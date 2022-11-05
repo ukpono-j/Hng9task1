@@ -31,7 +31,7 @@ const Home = () =>{
       <a href='https://background.zuri.team'><button id='pitch' class='decobutton'>Background check for coders</button></a>
       <a href='https://books.zuri.team/design-rules'><button id='book__design' class='decobutton'>Design Books</button></a>
       <Link to="/contact">
-      <a><button id='contact' className='decobutton'>Contact</button></a>
+      <button id='contact' className='decobutton'>Contact</button>
       </Link>
                     
     </div>
