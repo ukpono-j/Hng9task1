@@ -62,11 +62,11 @@ function Contact() {
                       setError(false)
                       setMessage(e.target.value)
                       console.log(message)}}
-               required />
+                />
                 {errorr ? <div className='warning'>Please input your messages first</div> : ""}
               </div>
               <div id="checkbox-area" className="inputs">
-                <input type="checkbox" id="checkbox" required/>
+                <input type="checkbox" id="checkbox" />
                 <p>
                   You agree to providing your data to {name} who may
                   contact you.
