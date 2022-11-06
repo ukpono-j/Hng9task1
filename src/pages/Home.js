@@ -30,11 +30,11 @@ const Home = () =>{
       <a href='https://books.zuri.team/python-for-beginners?ref_id=<aitee>'><button id='book__python' class='decobutton'>Python Books</button></a>
       <a href='https://background.zuri.team'><button id='pitch' class='decobutton'>Background check for coders</button></a>
       <a href='https://books.zuri.team/design-rules'><button id='book__design' class='decobutton'>Design Books</button></a>
-      <a href='#'>
+      
       <Link to="/contact">
       <button id='contact' className='decobutton'>Contact</button>
       </Link>
-      </a>
+      
                     
     </div>
     
