@@ -38,7 +38,7 @@ const Home = () =>{
                     
     </div>
     
-    <div>
+    <div id='second_footer'>
     
       <img src={slack} alt='' id='slack'/>
       <img src={github} href='https://github.com/Itoro-Brown' alt='' id='github'/>

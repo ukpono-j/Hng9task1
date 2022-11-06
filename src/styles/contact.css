@@ -171,6 +171,7 @@
       height: 884px;
       overflow-x: hidden;
       z-index: 4;
+      margin-bottom: 50px;
     }
     #contact-header {
       padding: 15px 0;
