@@ -4,3 +4,12 @@
     gap: 300px;
     margin-top: 20px;
 }
+@media only screen and (max-width: 600px) {
+    #footer{
+        display: flex;
+        justify-content: space-between;
+        gap: 8px;
+        margin-top: 10px;
+    }
+
+}
