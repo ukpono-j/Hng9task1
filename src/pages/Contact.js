@@ -32,7 +32,7 @@ function Contact() {
                   <label>First Name</label>
                   <input
                     id="first_name"
-                    placeholder="Enter your first name" required
+                    placeholder="Enter your first name" 
 
 
                   />
@@ -41,7 +41,7 @@ function Contact() {
                   <label>Last Name</label>
                   <input
                     id="last_name"
-                    placeholder="Enter your last name" required
+                    placeholder="Enter your last name" 
 
                   />
                 </div>
