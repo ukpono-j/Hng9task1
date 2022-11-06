@@ -63,7 +63,7 @@ function Contact() {
                       setMessage(e.target.value)
                       console.log(message)}}
                required />
-                {errorr ? <div>Please input your messages first</div> : ""}
+                {errorr ? <div className='warning'>Please input your messages first</div> : ""}
               </div>
               <div id="checkbox-area" className="inputs">
                 <input type="checkbox" id="checkbox" required/>
